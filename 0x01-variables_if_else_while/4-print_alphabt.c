@@ -3,8 +3,7 @@
 /**
  * main - print all letters in lowercase except e and q
  * followed by a new line
- * Description - main is the start of the program
- * Return 0 if (Successful)
+ * Return: Always 0 (Successful)
  */
 
 int main(void)
@@ -24,7 +23,10 @@ int main(void)
 	}
 
 	{
+
 putchar('\n');
 return (0);
+
 	}
-	}}
+	}
+}
