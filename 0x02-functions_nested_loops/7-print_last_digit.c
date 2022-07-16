@@ -2,23 +2,19 @@
 
 /**
  * print_last_digit - prints the last digit of a number
- * @n: number to be checked
- * Return 0 (success)
+ * @n: this int is used for the agreement of the function
+ * Return: integer value
  */
 
 int print_last_digit(int n)
-{
-	int x;
 
-	if (n > 0)
-	{
-		x = (-1 * (n % 10));
-		_putchar(x + 48);
-	}
-	else
-	{
-		x = n % 10;
-		_putchar((n % 10) + 48);
-	}
-	return (x);
+{
+	int last = n % 10;
+
+	if (n < 0)
+	last = last * -1;
+
+	_putchar(last + '0');
+
+	return (last);
 }
