@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * times_table - print the 
+ * times_table - print the
  * multiplication table from 0 - 9
  *
  * Return: void
@@ -11,9 +11,11 @@ void times_table(void)
 	int a = 0;
 	int b;
 	int rep;
+
 	while (a <= 9)
 	{
 		b = 0;
+
 		while (b <= 9)
 		{
 			rep = a * b;
