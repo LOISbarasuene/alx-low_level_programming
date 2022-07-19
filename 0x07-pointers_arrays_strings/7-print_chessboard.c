@@ -16,7 +16,7 @@ for (n = 0; n < 8; i++)
 
 {
 _putchar(a[i][n]);
-_putchar('\n');
 }
+_putchar('\n');
 }
 }
